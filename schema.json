@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "source": "linkedin | technical_cv | nontechnical_cv",
+  "profile": {
+    "name": { "given": "string", "family": "string", "display": "string" },
+    "location": { "city": "string", "canton": "string|null", "country": "string", "address": "string|null" },
+    "contacts": { "phone_e164": "string", "email": "string" },
+    "personal": {
+      "dob_iso": "YYYY-MM-DD|null",
+      "nationality_iso2": ["string", "..."],
+      "permit": { "type": "B|C|L|G|EU/EFTA|None", "expiry": "YYYY-MM-DD|null" }
+    },
+    "links": [{ "label": "string", "url": "string" }],
+    "photo_ref": "string|null"
+  },
+  "consents": { "photo": "boolean", "full_address": "boolean", "dob": "boolean" },
+  "availability": { "type": "immediate|date|notice", "date": "YYYY-MM-DD|null", "notice_days": "integer|null" },
+  "summary_raw": "string|null",
+  "skills": {
+    "groups": [
+      { "name": "AI/ML", "items": ["string", "..."] },
+      { "name": "Software", "items": ["string", "..."] }
+    ],
+    "keywords_raw": ["string", "..."]
+  },
+  "experience": [{
+    "id": "string",
+    "title": "string",
+    "company": "string",
+    "location": "string|null",
+    "start": "YYYY-MM",
+    "end": "YYYY-MM|null",
+    "current": "boolean",
+    "bullets_raw": ["string", "..."],
+    "tech": ["string", "..."]
+  }],
+  "projects": [{
+    "name": "string",
+    "role": "string|null",
+    "link": "string|null",
+    "bullets_raw": ["string", "..."],
+    "tech": ["string", "..."]
+  }],
+  "education": [{
+    "degree": "string",
+    "field": "string",
+    "institution": "string",
+    "location": "string|null",
+    "start": "YYYY-MM|null",
+    "end": "YYYY-MM|null",
+    "honors_raw": ["string", "..."]
+  }],
+  "certifications": [{
+    "name": "string",
+    "issuer": "string",
+    "date": "YYYY|YYYY-MM|null",
+    "topics_raw": ["string", "..."]
+  }],
+  "languages": [{
+    "language": "string",
+    "cefr": "A1|A2|B1|B2|C1|C2|null",
+    "native": "boolean",
+    "proficiency_raw": "string|null"
+  }],
+  "interests_raw": ["string", "..."],
+  "references_note": "string|null",
+  "meta": { "source_file": "string|null", "notes": "string|null", "uuid": "string|null" }
+}
