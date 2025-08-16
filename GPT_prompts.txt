@@ -1,0 +1,178 @@
+--------------------------------------------------------------------------------
+0. Setup (Optional)
+--------------------------------------------------------------------------------
+
+You are my Swiss-appropriate, ATS-proof CV & cover letter assistant.
+JD = job description.
+
+Context
+- Language: EN-US
+- Work authorization: B EU-EFTA; Nationality: EU; Availability: 3 months
+- Files: linkedin.json, technical_cv.json, nontechnical_cv.json are ground truth. No fabrication.
+
+Tasks (global)
+- Always align to the JD, be concise, metric-first, and factual.
+- If a critical fact is missing, ask ONE focused question per fact, then stop.
+- For final CV outputs: one column, no tables/icons/text boxes, plain text + light Markdown.
+Acknowledge readiness and list any blockers.
+
+--------------------------------------------------------------------------------
+1. JD-to-Candidate Audit & Gap Map
+--------------------------------------------------------------------------------
+
+Here is the JD for {{JOB}} at {{COMPANY}}. Help me put together a strong application.
+
+Inputs
+- JD: 
+
+```
+{{JD_TEXT_OR_URL}}
+```
+
+Task
+- Extract: (a) Must-haves, (b) Nice-to-haves, (c) 10–15 exact keywords from the JD.
+- Map each must-have to evidence from my JSONs (role, timeframe, metric). Mark status = Met / Partial / Gap.
+- Identify any knowledge gaps about my profile; ask ONE crisp question if needed per gap.
+
+Rules
+- Use only facts in linkedin.json, technical_cv.json, nontechnical_cv.json or in this chat. Do NOT invent.
+- You may use a simple table for the mapping (chat only). Final CV will be plain-text.
+
+Deliverables
+1. Must-haves mapping (Status | JD phrase | My evidence | Follow-up needed?).
+2. Nice-to-haves mapping (same fields, shorter).
+3. Keyword list (10–15) to weave into Summary, Skills, >=1 Experience bullet.
+4. One-sentence overall strength assessment (e.g., “Strong/Competitive/Stretch”) with top 2 risks.
+
+--------------------------------------------------------------------------------
+2. Gap Closure with my Additions
+--------------------------------------------------------------------------------
+
+Here is how I address the gaps:
+{{MY_ADDITIONAL_INFO_BULLETS}}
+
+Task
+- Update the mapping with my answers.
+- Only change statuses affected by the new information; leave rest intact;
+- Reassess: Am I now a strong candidate? If not, what’s the THREE highest-impact additions or mitigations I should provide?
+- The THREE highest-impact additions or mitigations must be achievable in < 0.5 day, or should be market as "for interview or future"
+
+Deliverables
+- Updated statuses (Met/Partial/Gap) + revised overall assessment.
+- 3 proof points to emphasize later in Summary/Experience.
+
+--------------------------------------------------------------------------------
+3. Draft “Professional Summary” + “Key Skills”
+--------------------------------------------------------------------------------
+
+Thank you! Let’s tailor just the “Professional Summary” and “Key Skills”. Keep other sections for later.
+
+Constraints
+- Keep technical_cv.json and nontechnical_cv.json style.
+- Summary: <=50 words, include most important JD keywords, metric-first, no fluff, narative flow;
+- Key Skills: 7-8 maximum, align to must-haves, nice-to-haves, and keywords. Keep it tight.
+
+Inputs
+- JD, JSONs, and my additions above.
+
+Deliverables
+- Professional Summary (final draft).
+- Key Skills (final draft, grouped).
+- 1–2 optional alternates for the Summary with different JD relevant emphases.
+
+Guardrails: No new facts; ask ONE question if evidence is missing or week for a claimed skill;
+
+
+--------------------------------------------------------------------------------
+4. Micro-Review of Summary + Skills
+--------------------------------------------------------------------------------
+
+Thanks! Do the Summary and Key Skills fully cover the JD must-haves without bloat?
+
+Task
+- If coverage is incomplete, propose the smallest possible edits (<=15 words total change).
+- If length exceeds my style, trim while preserving JD coverage.
+- Return a “before - after” diff for any changed lines.
+
+--------------------------------------------------------------------------------
+5. Tailor "Experience"
+--------------------------------------------------------------------------------
+
+Thank you! Now tailor the Experience section.
+
+Constraints
+- Keep technical_cv.json and nontechnical_cv.json style; 1–5 bullets per role.
+- Bullet formula: Action verb + metric + outcome + scope/timeframe.
+- Weave JD keywords naturally; at least one appears per relevant role. Highlight in bold.
+
+Inputs
+- JD + JSONs + my gap-closures.
+
+Deliverables
+- Rewritten bullets per role (only roles relevant to the JD).
+- For any role where evidence is thin, ask ONE targeted question or suggest a truthful adjacent proof (domain/scale/tool).
+
+--------------------------------------------------------------------------------
+6. Education, Certifications & Projects, Languages, Interests
+--------------------------------------------------------------------------------
+
+Excellent. Let’s finalize the remaining sections.
+
+Scope
+- Education (relevant items only), Certifications, Languages (CEFR), Interests (lean, professional).
+- Projects (optional, only if they strengthen fit and not in Experience)
+
+Rules
+- No fabrication. If a project or certificate is borderline, justify inclusion in one line or omit.
+- Include Availability & Permit line.
+
+Deliverables
+- Draft text for each section in plain text + light Markdown headings.
+- Note any optional extras I could add without stretching the truth.
+
+--------------------------------------------------------------------------------
+7. Whole‑CV Review vs. JD (PDF + raw)
+--------------------------------------------------------------------------------
+
+Here is the CV PDF and the raw text:
+- PDF attached
+- Raw text: 
+```
+{{PASTE_RAW_TEXT}}
+```
+
+Task
+- Judge whether this CV makes me a strong candidate for the JD.
+- Run an ATS & Swiss checklist.
+
+Deliverables
+- Verdict (Strong/Competitive/Stretch) + 3 reasons.
+- High-impact edits (max 5), each <=20 words, referencing exact sections.
+- ATS: style; consistent dates; normalized numerals/currency; JD keywords present in Summary, Skills, >=1 Experience bullet.
+- Swiss specifics: permit/nationality phrasing; CEFR; photo/PII per my consents; EN-US orthography;
+
+--------------------------------------------------------------------------------
+8. Write the Cover Letter (<=250 words)
+--------------------------------------------------------------------------------
+
+Write a Swiss-appropriate cover letter for this JD.
+
+Constraints
+- <=250 words; formal; match ad language.
+- Focus on most important must-haves.
+- Structure: Hook (mission/product) + 2–3 one-line proof bullets tied to JD must-haves with outcomes + Close (availability, permit, polite CTA).
+- Use Dale Carnegie principles of talking in terms of their interests, needs and wants.
+
+Deliverables
+- Full letter (<=250 words).
+
+--------------------------------------------------------------------------------
+9. Cover Letter Micro‑Review
+--------------------------------------------------------------------------------
+
+Does the letter make me a strong candidate for the JD?
+
+Task
+- If coverage is incomplete, propose minimal edits (<=30 words total).
+- Keep tone and length; return a “before - after” diff for changed lines.
+- Confirm salutation/closing correctness for the language; fix if needed.
