@@ -151,6 +151,8 @@ Deliverables
 - ATS: style; consistent dates; normalized numerals/currency; JD keywords present in Summary, Skills, >=1 Experience bullet.
 - Swiss specifics: permit/nationality phrasing; CEFR; photo/PII per my consents; EN-US orthography;
 
+Guardrails: Check context for full JD, must-haves and nice-to-haves 
+
 --------------------------------------------------------------------------------
 8. Write the Cover Letter (<=250 words)
 --------------------------------------------------------------------------------
@@ -170,9 +172,64 @@ Deliverables
 9. Cover Letter Micro‑Review
 --------------------------------------------------------------------------------
 
-Does the letter make me a strong candidate for the JD?
+Here is the CL PDF and the raw text:
+- PDF attached
+- Raw text: 
+```
+{{PASTE_RAW_TEXT}}
+```
 
 Task
+- Does the letter make me a strong candidate for the JD?
 - If coverage is incomplete, propose minimal edits (<=30 words total).
 - Keep tone and length; return a “before - after” diff for changed lines.
 - Confirm salutation/closing correctness for the language; fix if needed.
+
+--------------------------------------------------------------------------------
+10. Profile Enrichment & JSON Augmentation
+--------------------------------------------------------------------------------
+
+Great! The application has been sent. Now, review my documents and propose additions.
+
+Goal
+- Suggest concise, verifiable additions or changes that would strengthen JD fit. No fabrication.
+
+Inputs
+- JD, my answers, latest drafts, techical_cv.json, nontechnical_cv.json, linkedin.json
+- Optional: enrichments.json (suggestions only).
+
+Tasks
+- Propose high-impact additions or changes.
+- For each item provide: target file+path, action (add|update|remove), proposed value, motivation for modification, evidence (file+snippet), confidence (0.0–1.0), needs_confirmation (true|false).
+- needs_confirmation is false is confidence is >=0.8, and true otherwise.
+
+Deliverables
+- `enrichments.json` content.
+
+Rules
+- Do not modify the source JSONs. These are proposals only.
+- Do not use proposals in CV/letter content unless I confirm.
+- ASCII symbols; normalized numerals (100x, 12%, £120k).
+
+JSON format:
+```
+{
+  "applications": [
+    {
+      "app_id": "{{APP_ID}}",
+      "suggestions": [
+        {
+          "id": "S-001",
+          "target": ""techical_cv.json:/experience/3/bullets_raw/0"",
+          "action": "add",
+          "value": "Reduced inference latency 38% (A/B, N=120k, Q2 2024).",
+          "why": "JD requires measurable latency reduction.",
+          "evidence": "technical_cv.json bullet mentions A/B; missing exact %.",
+          "confidence": 0.9,
+          "needs_confirmation": true
+        }
+      ]
+    }
+  ]
+}
+```
