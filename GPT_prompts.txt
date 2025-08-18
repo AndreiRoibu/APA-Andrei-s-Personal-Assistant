@@ -149,6 +149,7 @@ Deliverables
 - Verdict (Strong/Competitive/Stretch) + 3 reasons.
 - High-impact edits (max 5), each <=20 words, referencing exact sections.
 - ATS: style; consistent dates; normalized numerals/currency; JD keywords present in Summary, Skills, >=1 Experience bullet.
+- HR: Human-readable, consistent style, quickly scannable.
 - Swiss specifics: permit/nationality phrasing; CEFR; photo/PII per my consents; EN-US orthography;
 
 Guardrails: Check context for full JD, must-haves and nice-to-haves 
