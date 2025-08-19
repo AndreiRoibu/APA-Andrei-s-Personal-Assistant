@@ -68,7 +68,7 @@ Deliverables
 Thank you! Let’s tailor just the “Professional Summary” and “Key Skills”. Keep other sections for later.
 
 Constraints
-- Keep technical_cv.json and nontechnical_cv.json style.
+- Keep technical_cv.json and nontechnical_cv.json narative style.
 - Summary: <=50 words, include most important JD keywords, metric-first, no fluff, narative flow;
 - Key Skills: 7-8 maximum, align to must-haves, nice-to-haves, and keywords. Keep it tight.
 
