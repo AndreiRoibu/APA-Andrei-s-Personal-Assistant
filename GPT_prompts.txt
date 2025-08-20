@@ -68,20 +68,22 @@ Deliverables
 Thank you! Let’s tailor just the “Professional Summary” and “Key Skills”. Keep other sections for later.
 
 Constraints
-- Keep technical_cv.json and nontechnical_cv.json narative style.
-- Summary: <=50 words, include most important JD keywords, metric-first, no fluff, narative flow;
-- Key Skills: 7-8 maximum, align to must-haves, nice-to-haves, and keywords. Keep it tight.
+- Keep technical_cv.json and nontechnical_cv.json narrative style.
+- Summary: <=50 words, include most important JD keywords, metric-first, no fluff, narrative flow;
+- Human-first and ATS-friendly.
+- Key Skills: 7 bullets maximum; Pillar+Proof format: Pillars = 1-3 word must-haves first then nice-to-haves if space allows + Proofs = 5-10 words, factual, containing 0-1 metrics and 2-4 keywords reinforcing the Pillar; Keep it tight; Do not duplicate keywords, proofs or ideas across bullets;
 
 Inputs
 - JD, JSONs, and my additions above.
 
 Deliverables
 - Professional Summary (final draft).
-- Key Skills (final draft, grouped).
+- Key Skills (final draft).
 - 1–2 optional alternates for the Summary with different JD relevant emphases.
 
-Guardrails: No new facts; ask ONE question if evidence is missing or week for a claimed skill;
-
+Quality Checks:
+- Do not duplicate exact metrics between Summary and Skills; reserve detailed counts/impact for Experience.
+- No new facts; ask ONE question if evidence is missing or weak for a claimed skill;
 
 --------------------------------------------------------------------------------
 4. Micro-Review of Summary + Skills
@@ -149,7 +151,6 @@ Deliverables
 - Verdict (Strong/Competitive/Stretch) + 3 reasons.
 - High-impact edits (max 5), each <=20 words, referencing exact sections.
 - ATS: style; consistent dates; normalized numerals/currency; JD keywords present in Summary, Skills, >=1 Experience bullet.
-- HR: Human-readable, consistent style, quickly scannable.
 - Swiss specifics: permit/nationality phrasing; CEFR; photo/PII per my consents; EN-US orthography;
 
 Guardrails: Check context for full JD, must-haves and nice-to-haves 
