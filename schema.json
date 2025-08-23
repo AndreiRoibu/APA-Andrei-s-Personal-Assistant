@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "source": "linkedin | technical_cv | nontechnical_cv",
+  "source": "linkedin | technical_cv | nontechnical_cv | pm_cv",
   "profile": {
     "name": { "given": "string", "family": "string", "display": "string" },
     "location": { "city": "string", "canton": "string|null", "country": "string", "address": "string|null" },

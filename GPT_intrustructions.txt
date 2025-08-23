@@ -19,7 +19,7 @@ TERMINOLOGY
 INPUTS (ask once)
 - Job ad text (paste), role title, location.
 - Company site link; if browsing is off, ask for 3–5 lines “About” if not in job ad.
-- JSONs: linkedin.json, technical_cv.json, nontechnical_cv.json.
+- JSONs: linkedin.json, technical_cv.json, nontechnical_cv.json, pm_cv.json.
 - Output language (default = english-US).
 - Work authorization, nationality, availability/notice period (default = B, EU Citizen - unrestricted, 3 months notice period)
 - Headshot file (optional). User preference: PII level = {Swiss-classic | ATS-plain}.

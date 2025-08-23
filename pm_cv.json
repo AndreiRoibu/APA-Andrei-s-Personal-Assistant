@@ -1,0 +1,424 @@
+{
+  "schema_version": "1.0",
+  "source": "pm_cv",
+  "profile": {
+    "name": {
+      "given": "Andrei-Claudiu",
+      "family": "Roibu",
+      "display": "Andrei-Claudiu Roibu"
+    },
+    "location": { 
+      "city": "Zürich", 
+      "canton": "Zürich", 
+      "country": "Switzerland", 
+      "address": "Streitholzstrasse 14, 8057"
+    },
+    "contacts": {
+      "phone_e164": "+41782419317",
+      "email": "andreiroibu@icloud.com"
+    },
+    "personal": {
+      "dob_iso": "1994-12-07",
+      "nationality_iso2": ["RO", "UK"],
+      "permit": { "type": "B", "expiry": "2028-07-10" }
+    },
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://andreiroibu.com"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/in/andreiroibu"
+      },
+      {
+        "label": "GitHub (Personal)",
+        "url": "https://github.com/AndreiRoibu"
+      },
+      {
+        "label": "GitHub (Work)",
+        "url": "https://github.com/AndreiRoibu-synthara"
+      }
+    ],
+    "photo_ref": null
+  },
+  "consents": {
+    "photo": true,
+    "full_address": true,
+    "dob": true
+  },
+  "availability": { "type": "notice", "date": null, "notice_days": 90 },
+  "summary_raw": "Cross-functional platform and B2B product leader, bridging technical depth with product management, UX, and marketing expertise across aerospace, semiconductors, and pharmaceuticals. I have managed 60+ B2B engagements, built five multi-quarter roadmaps, led 35+ data-driven projects, and partnered with C-level, engineering, UX, marketing, and sales stakeholders to enable new business branches worth USD 840M/year.",
+  "skills": {
+    "groups": [
+      {
+        "name": "Business",
+        "items": [
+          "Product Strategy",
+          "Deep Technical Expertise",
+          "End-to-End Delivery",
+          "Experimentation and Analytics",
+          "Customer Centricity",
+          "Stakeholder Alignment",
+          "GTM & Growth"
+        ]
+      }
+    ],
+    "keywords_raw": [
+      "Artificial Intelligence",
+      "Business Development",
+      "Commercial Strategy",
+      "Agile Project Management",
+      "Stakeholder Engagement",
+      "Cross-Functional Collaboration",
+      "C-Suite Communication",
+      "Workshops",
+      "Customer Engagement",
+      "Customer Acquisition",
+      "Operations Management",
+      "Team Leadership",
+      "Mentoring",
+      "Project Management",
+      "Cross-Functional Team Leadership",
+      "Technical Sales",
+      "Market Research",
+      "Competitive Analysis",
+      "Go-to-Market (GTM) Strategy",
+      "Product Positioning",
+      "Product Roadmapping",
+      "CRM",
+      "Data Analysis",
+      "Social Capital Management",
+      "Human Capital Management",
+      "Stakeholder Management",
+      "Technology Translation",
+      "Technology Commercialization",
+      "Innovation Management",
+      "Embedded Systems",
+      "Pharmaceuticals",
+      "Biomedical",
+      "Healthcare",
+      "Aerospace",
+      "Mechanical Engineering",
+      "Machine Learning",
+      "Product Strategy",
+      "Multi-Quarter Roadmapping",
+      "Product-Market Fit",
+      "OKRs",
+      "Prioritization",
+      "Technical Roadmapping",
+      "Edge Computing",
+      "HPC",
+      "End-to-End Delivery",
+      "PRD",
+      "Product Pipeline",
+      "Agile",
+      "Scrum",
+      "Lean",
+      "Productization",
+      "Open-Source",
+      "Experimentation",
+      "Analytics",
+      "KPI Tracking",
+      "A/B Testing",
+      "Automated Pipelines",
+      "CI/CD",
+      "Counterfactuals",
+      "Customer Centricity",
+      "Customer Interviews",
+      "UX Design",
+      "Stakeholder Management",
+      "Technical Translation",
+      "Cross-Functional Communication",
+      "Lead Sourcing",
+      "B2B Engagements",
+      "Value-Proposition Storytelling",
+      "Technical Marketing"
+    ]
+  },
+  "experience": [
+    {
+      "id": "exp-1",
+      "title": "Field Application Engineer (Strategy & Business Development)",
+      "company": "Synthara AG",
+      "location": "Zürich, Switzerland",
+      "start": "2023-09",
+      "end": null,
+      "current": true,
+      "bullets_raw": [
+        "Co-created an automated embedded emulation pipeline, accelerating workload delivery by 90%, sourcing requirements specification, defining goals, bets, and success metrics, enabling a multi-quarter roadmap.",
+        "Led 25+ cross-functional end-to-end PoCs and product benchmarks using Scrum to ensure on-time delivery and alignment between engineering outputs and commercial strategy.",
+        "Sourced 60+ B2B leads, driving partner engagement and global business development initiatives, delivering keynotes and workshops internationally, and shaping the technical product roadmap.",
+        "Established the company's CRM, owning segmented messaging, initial client engagements, and lifecycle outreach, delivering customer-centric value propositions and translating feedback into product features.",
+        "Mentored engineers, boosting autonomy, team velocity, and work quality."
+      ],
+      "tech": [
+        "scrum",
+        "business development",
+        "product roadmap",
+        "agile methodologies",
+        "product-market fit",
+        "customer engagement",
+        "CRM",
+        "lead generation",
+        "customer success",
+        "sales enablement",
+        "partner engagement",
+        "technical marketing",
+        "workshops",
+        "keynotes",
+        "mentoring"
+      ]
+    },
+    {
+      "id": "exp-2",
+      "title": "Doctoral Researcher (AI Research Commercialization)",
+      "company": "University of Oxford & F. Hoffmann-La Roche AG",
+      "location": "Oxford, United Kingdom & Basel, Switzerland",
+      "start": "2019-10",
+      "end": "2024-12",
+      "current": false,
+      "bullets_raw": [
+        "Engineered multimodal AI models (vision-LLMs) and designed data-driven experiments, discovering new brain aging biomarkers, and ensuring a high level of result stability and clinical interpretability.",
+        "Secured GBP 120k in funding and partnered with Roche Pharma, successfully translating my research into scalable models for drug development, strengthening cross-functional academia-industry collaboration.",
+        "Open-sourced research and presented at IEEE SDS 2023, enhancing technology transfer and visibility."
+      ],
+      "tech": [
+        "multimodal AI",
+        "vision-LLMs",
+        "biomarkers",
+        "drug development",
+        "technology-transfer",
+        "research translation",
+        "open-source",
+        "data-driven experimentation",
+        "clinical interpretability",
+        "result stability",
+        "variance, confound, bias control"
+      ]
+    },
+    {
+      "id": "exp-3",
+      "title": "Management Consultant",
+      "company": "University of Oxford Careers Service",
+      "location": "Oxford, United Kingdom",
+      "start": "2021-09",
+      "end": "2021-09",
+      "current": false,
+      "bullets_raw": [
+        "Led a team of five consultants delivering a customer segmentation and go-to-market (GTM) strategy adopted by a local insurance broker, enhancing customer engagement and market positioning."
+      ],
+      "tech": [
+        "customer-segmentation",
+        "go-to-market strategy",
+        "management consulting"
+      ]
+    },
+    {
+      "id": "exp-4",
+      "title": "Technical Product Manager and Software Engineer",
+      "company": "GE Healthcare",
+      "location": "Oxford, United Kingdom",
+      "start": "2019-10",
+      "end": "2020-10",
+      "current": false,
+      "bullets_raw": [
+        "Used Scrum and Lean to lead the team developing Paint4Brains, an open-source AI-powered software improving image segmentation accuracy by 12% and processing speed by 90% for Alzheimer's patients.",
+        "Partnered with stakeholders to ship user-requested features (simple UX, OS-specific installers, and manual edits), and produced customer-centric documentation, qualitatively improving early adoption."
+      ],
+      "tech": [
+        "AI",
+        "project lifecycle management",
+        "customer centricity",
+        "product management",
+        "stakeholder engagement",
+        "user experience (UX) design",
+        "agile methodologies",
+        "scrum",
+        "lean",
+        "cross-functional collaboration"
+      ]
+    },
+    {
+      "id": "exp-5",
+      "title": "Research Engineer (Market Strategy & Tech Commercialization)",
+      "company": "Rolls-Royce",
+      "location": "Derby, United Kingdom",
+      "start": "2017-06",
+      "end": "2018-09",
+      "current": false,
+      "bullets_raw": [
+        "Delivered a multi-disciplinary agent-based strategic market analysis, enabling the establishment of two new hybrid-electric aviation business units valued at USD 840M/year.",
+        "Advised senior (C-level) leadership, evaluating 120+ novel robotics, XR, aviation, and SMRs technologies, and translating horizon scanning outcomes into strategic insights shaping long-term R&D roadmaps."
+      ],
+      "tech": [
+        "market analysis",
+        "agent-based modeling",
+        "robotics",
+        "VR",
+        "aviation",
+        "SMRs"
+      ]
+    },
+    {
+      "id": "exp-6",
+      "title": "Research Engineer (Innovation & Business Enablement)",
+      "company": "Rolls-Royce",
+      "location": "Derby, United Kingdom",
+      "start": "2016-06",
+      "end": "2016-09",
+      "current": false,
+      "bullets_raw": [
+        "Developed and benchmarked novel 3D XR algorithms, increasing inspection efficiency by 50%, directly enabling a new automation-focused business line to launch."
+      ],
+      "tech": [
+        "3D XR",
+        "inspection algorithms",
+        "automation"
+      ]
+    },
+    {
+      "id": "exp-7",
+      "title": "Founder & Project Manager",
+      "company": "Project Phoenix, University of Sheffield",
+      "location": "Sheffield, United Kingdom",
+      "start": "2016-02",
+      "end": "2016-12",
+      "current": false,
+      "bullets_raw": [
+        "Founded and led the largest student-led engineering project aimed at building a full-scale aircraft, recruiting 50+ students and securing £25k in sponsorship.",
+        "Managed a 15-member multidisciplinary management team, coordinated with stakeholders, enhanced media visibility, and oversaw procurement and logistics."
+      ],
+      "tech": [
+        "project management",
+        "sponsorship",
+        "procurement",
+        "logistics"
+      ]
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "degree": "Doctor of Philosophy (DPhil)",
+      "field": "Deep Learning, Multimodal 3D Neuroimaging & Biomedical Data for Quantifying Brain Aging.",
+      "institution": "University of Oxford",
+      "location": "Oxford, United Kingdom",
+      "start": "2019-09",
+      "end": "2024-12",
+      "honors_raw": [
+        "Partners: Roche Pharma, GE Healthcare",
+        "Industrial Fellowship (£51k) - Royal Commission for the Exhibition of 1851 (2021)"
+      ]
+    },
+    {
+      "degree": "Master of Engineering (MEng)",
+      "field": "Deep Reinforcement Learning for Neuromorphic Hardware, Aerospace Engineering",
+      "institution": "University of Sheffield",
+      "location": "Sheffield, United Kingdom",
+      "start": "2014-09",
+      "end": "2019-06",
+      "honors_raw": [
+        "Focus: Biologically-Plausible, Self-Training AI Agents",
+        "Grade: First-Class Honours (Valedictorian)",
+        "Mappin Medal & Premium (Top Graduating Student, 2019)",
+        "Sir Harold West Award (2014)"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Digital Product Management Specialization",
+      "issuer": "University of Virginia Darden School of Business",
+      "date": null,
+      "topics_raw": [
+        "Digital Product Management Fundamentals",
+        "Agile Meets Design Thinking",
+        "Hypothesis-Driven Development",
+        "Product Analytics and AI",
+        "Managing an Agile Team",
+        "Operations"
+      ]
+    },
+    {
+      "name": "Business Foundations Specialization",
+      "issuer": "The Wharton School",
+      "date": null,
+      "topics_raw": [
+        "Sales",
+        "Marketing",
+        "Financial Accounting",
+        "Social & Human Capital",
+        "Corporate Finance",
+        "Operations"
+      ]
+    },
+    {
+      "name": "Project Management Specialization",
+      "issuer": "IBM & Google",
+      "date": null,
+      "topics_raw": []
+    },
+    {
+      "name": "Introduction to Health Economic Evaluation",
+      "issuer": "University of Oxford",
+      "date": "2022",
+      "topics_raw": []
+    },
+    {
+      "name": "AI for Medicine Specialization",
+      "issuer": "Coursera",
+      "date": "2020",
+      "topics_raw": []
+    },
+    {
+      "name": "Deep Learning Specialization & Machine Learning",
+      "issuer": "Coursera",
+      "date": "2018",
+      "topics_raw": []
+    },
+    {
+      "name": "Bayesian Machine Learning in Python: A/B Testing",
+      "issuer": "Udemy",
+      "date": "2021",
+      "topics_raw": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "Romanian",
+      "cefr": null,
+      "native": true,
+      "proficiency_raw": "Native"
+    },
+    {
+      "language": "English",
+      "cefr": "C2",
+      "native": false,
+      "proficiency_raw": "Bilingual Proficiency"
+    },
+    {
+      "language": "French",
+      "cefr": "B1",
+      "native": false,
+      "proficiency_raw": "Conversational"
+    },
+    {
+      "language": "German",
+      "cefr": "A1",
+      "native": false,
+      "proficiency_raw": "Basic"
+    }
+  ],
+  "interests_raw": [
+    "Reading (embedded programming, business, foreign affairs, emotional intelligence, history, fiction)",
+    "STEM outreach (volunteering, mentoring, policy advocacy)",
+    "Sports (trekking, jogging, cycling, kayaking)"
+  ],
+  "references_note": "Available upon request",
+  "meta": {
+    "source_file": "pm_cv.json",
+    "notes": "Schema's 'skills.groups' are a rigid fit for a product management CV. Most business-focused skills are in 'keywords_raw' only.",
+    "uuid": null
+  }
+}

@@ -8,7 +8,7 @@ JD = job description.
 Context
 - Language: EN-US
 - Work authorization: B EU-EFTA; Nationality: EU; Availability: 3 months
-- Files: linkedin.json, technical_cv.json, nontechnical_cv.json are ground truth. No fabrication.
+- Files: linkedin.json, technical_cv.json, nontechnical_cv.json, pm_cv.json are ground truth. No fabrication.
 
 Tasks (global)
 - Always align to the JD, be concise, metric-first, and factual.
@@ -35,7 +35,7 @@ Task
 - Identify any knowledge gaps about my profile; ask ONE crisp question if needed per gap.
 
 Rules
-- Use only facts in linkedin.json, technical_cv.json, nontechnical_cv.json or in this chat. Do NOT invent.
+- Use only facts in linkedin.json, technical_cv.json, nontechnical_cv.json, pm_cv.json or in this chat. Do NOT invent.
 - You may use a simple table for the mapping (chat only). Final CV will be plain-text.
 
 Deliverables
@@ -68,7 +68,7 @@ Deliverables
 Thank you! Let’s tailor just the “Professional Summary” and “Key Skills”. Keep other sections for later.
 
 Constraints
-- Keep technical_cv.json and nontechnical_cv.json narrative style.
+- Keep technical_cv.json, nontechnical_cv.json, pm_cv.json narrative style.
 - Summary: <=50 words, include most important JD keywords, metric-first, no fluff, narrative flow;
 - Human-first and ATS-friendly.
 - Key Skills: 7 bullets maximum; Pillar+Proof format: Pillars = 1-3 word must-haves first then nice-to-haves if space allows + Proofs = 5-10 words, factual, containing 0-1 metrics and 2-4 keywords reinforcing the Pillar; Keep it tight; Do not duplicate keywords, proofs or ideas across bullets;
@@ -103,7 +103,7 @@ Task
 Thank you! Now tailor the Experience section.
 
 Constraints
-- Keep technical_cv.json and nontechnical_cv.json style; 1–5 bullets per role.
+- Keep technical_cv.json, nontechnical_cv.json, pm_cv.json style; 1–5 bullets per role.
 - Bullet formula: Action verb + metric + outcome + scope/timeframe.
 - Weave JD keywords naturally; at least one appears per relevant role. Highlight in bold.
 
@@ -197,7 +197,7 @@ Goal
 - Suggest concise, verifiable additions or changes that would strengthen JD fit. No fabrication.
 
 Inputs
-- JD, my answers, latest drafts, techical_cv.json, nontechnical_cv.json, linkedin.json
+- JD, my answers, latest drafts, techical_cv.json, nontechnical_cv.json, pm_cv.json, linkedin.json
 - Optional: enrichments.json (suggestions only).
 
 Tasks
