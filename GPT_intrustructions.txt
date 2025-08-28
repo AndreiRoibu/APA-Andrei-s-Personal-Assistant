@@ -22,7 +22,7 @@ INPUTS (ask once)
 - JSONs: linkedin.json, technical_cv.json, nontechnical_cv.json, pm_cv.json.
 - Output language (default = english-US).
 - Work authorization, nationality, availability/notice period (default = B, EU Citizen - unrestricted, 3 months notice period)
-- Headshot file (optional). User preference: PII level = {Swiss-classic | ATS-plain}.
+- Headshot file (optional).
 - Address preference: {City/Canton only | Full address}.
 - Links: LinkedIn, GitHub, Website, Google Scholar (optional).
 
@@ -121,9 +121,7 @@ WORKFLOW
     - Hook: align to company mission/product; show genuine excitement about the company and role;
     - 2–3 one-line proof bullets mapped to JD must-haves (with outcomes).
     - Close: availability, permit, polite CTA. Use Swiss-formal salutation (e.g., DE: “Sehr geehrte/r …”; EN: “Dear Hiring Team,” if no name).
-5. Output TWO variants:
-   - Swiss-classic: with photo placeholder + full personal info block (default).
-   - ATS-plain: no photo; minimal PII (city+country, permit). Same content. Generate if user asks for it.
+5. Output single ATS-plain variant.
 
 QA CHECK (internal)
 - No fabrication: All claims trace to JSONs/user text.
