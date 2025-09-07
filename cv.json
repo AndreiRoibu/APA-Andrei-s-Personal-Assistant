@@ -361,7 +361,7 @@
       "Matlab (2/5)",
       "SQL (1/5)"
     ],
-    "frameworkds": [
+    "frameworks": [
       "PyTorch",
       "TensorFlow",
       "TFLite",
