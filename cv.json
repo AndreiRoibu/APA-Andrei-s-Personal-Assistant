@@ -1,0 +1,379 @@
+{
+  "schema_version": "1.0",
+  "source": "cv",
+  "summary": {
+    "name": { 
+      "given": "Andrei-Claudiu", 
+      "family": "Roibu", 
+      "display": "Andrei-Claudiu Roibu"
+    },
+    "location": { 
+      "city": "Zürich", 
+      "canton": "Zürich", 
+      "country": "Switzerland", 
+      "address": "Streitholzstrasse 14, 8057"
+    },
+    "contacts": { 
+      "phone_e164": "+41782419317", "email": "andreiroibu@icloud.com" },
+    "personal": {
+      "dob_iso": "1994-12-07",
+      "nationality_iso2": ["RO", "UK"],
+      "permit": { "type": "B", "expiry": "2028-07-10" }
+    },
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://andreiroibu.com"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/in/andreiroibu"
+      },
+      {
+        "label": "GitHub (Personal)",
+        "url": "https://github.com/AndreiRoibu"
+      },
+      {
+        "label": "GitHub (Work)",
+        "url": "https://github.com/AndreiRoibu-synthara"
+      }
+    ],
+    "photo_ref": null
+  },
+  "availability": { "type": "notice", "date": null, "notice_days": 90 },
+  "profile": "Applied AI specialist (Oxford PhD) and data-driven project lead with a record of delivering 35+ projects under ambiguity, translating research into scalable solutions. I combine deep technical knowledge, mixed-methods research, and leadership of multidisciplinary projects with C-level and domain expert stakeholders across aerospace, semiconductors, and pharma. Passionate about using psychology and strategic thinking to drive growth, such as sourcing 60+ sales leads at Synthara and enabling new business lines at Rolls-Royce.",
+  "areas_of_expertise": {
+    "keywords": [
+      "Deep Learning and Edge-AI",
+      "Reinforcement Learning",
+      "Model Optimization",
+      "Multi-Modal Data Science",
+      "Digital Signal Processing",
+      "Embedded Systems",
+      "Slurm-HPC and Azure",
+      "Research Translation",
+      "Product Management",
+      "Technical Marketing and Sales",
+      "Cross-Functional Leadership",
+      "Market Research",
+      "Stakeholder Communication",
+      "Project Management"
+    ]
+  },
+  "experience": [
+    {
+      "id": "exp-1",
+      "title": "Field Applications Engineer and Scrum Master",
+      "company": "Synthara AG",
+      "location": "Zürich, Switzerland",
+      "start": "2023-09",
+      "end": null,
+      "current": true,
+      "intro": "Synthara designs high-performance, energy-efficient in-memory computing chips for embedded devices.",
+      "bullets": [
+        "Designed in-memory computing algorithms delivering up to 100x faster and lower-energy inferences vs. INT8 baselines on representative LLM, TinyML, and DSP tasks, validated via Cortex-M device emulation.",
+        "Co-developed an embedded emulation pipeline, reducing benchmarking time by up to 90% vs. prior tools, analyzing bottlenecks, and adding Git CI, MongoDB, and Google Drive logging for reproducibility (link).",
+        "Owned the multi-quarter applications roadmap and led 25+ end-to-end cross-functional PoCs for prospective customers with Scrum, tracking latency, throughput, and energy consumption metrics.",
+        "Supported international sales, organizing conference presence, delivering workshops and pitches (link) across the EU/USA/China, sourcing 60+ sales leads, and leading market research for new opportunities.",
+        "Mentored engineers and authored customer-centric value propositions, technical annexes, and blogs, ran gate reviews, and aligned engineering, sales, and marketing teams."
+      ]
+    },
+    {
+      "id": "exp-2",
+      "title": "Doctoral Researcher",
+      "company": "University of Oxford & F. Hoffmann-La Roche AG",
+      "location": "Oxford, United Kingdom & Basel, Switzerland",
+      "start": "2019-10",
+      "end": "2024-12",
+      "current": false,
+      "intro": "Current models of brain ageing, a complex process tied to neurodegenerative diseases, are single-modality, missing important signals that limit their utility for drug discovery and environmental factor identification.",
+      "bullets": [
+        "Built multimodal 3D MRI and biomedical data fusion HPC pipelines, finding 191 factors with CNNs and Vision Transformers trained on 30k UK Biobank subjects with variance, bias, and confound controls.",
+        "Created generative models (AE, VAE, GAN) for mapping structural brain MRIs to functional connectivity maps using 22k subjects, evaluating with MAE and Pearson Correlation vs. PCA and PLS baselines.",
+        "Secured GBP 120k funding, translated findings with Roche Pharma pRED and Biomarkers teams into three prototype models for early drug discovery, presented at IEEE SDS 2023, and open-sourced findings (link)."
+      ]
+    },
+    {
+      "id": "exp-3",
+      "title": "Product Manager and Software Engineer (Part-Time)",
+      "company": "GE HealthCare UK Plc.",
+      "location": "Oxford, United Kingdom",
+      "start": "2019-10",
+      "end": "2020-10",
+      "current": false,
+      "intro": null,
+      "bullets": [
+        "Lead the team shipping Paint4Brains with Scrum, applying Lean to translate clinical user requirements (simple UX, manual-edit tool, easy installers) into a prioritized backlog, accelerating early adoption.",
+        "Integrated QuickNat, an Alzheimer's segmentation CNN, improving Dice by ~11% and CPU-only inference speed by up to 100x vs. competing frameworks, supporting real-time use on business laptops (link)."
+      ]
+    },
+    {
+      "id": "exp-4",
+      "title": "Master Student",
+      "company": "University of Sheffield",
+      "location": "Sheffield, United Kingdom",
+      "start": "2018-09",
+      "end": "2019-06",
+      "current": false,
+      "intro": null,
+      "bullets": [
+        "Developed Q-learning and SARSA deep reinforcement learning agents in OpenAI Gym, showing that neuromorphic direct feedback alignment performs similarly to backpropagation on select tasks (link)."
+      ]
+    },
+    {
+      "id": "exp-5",
+      "title": "Research Engineer (Full-Time Internship)",
+      "company": "Rolls-Royce Holdings Plc.",
+      "location": "Derby, United Kingdom",
+      "start": "2017-06",
+      "end": "2018-09",
+      "current": false,
+      "intro": null,
+      "bullets": [
+        "Estimated a USD 840M/year revenue opportunity for hybrid-electrical aircraft via agent-based and TAM/SAM modelling with counterfactuals, informing CTO and shaping new business unit plans (link).",
+        "Stress-tested outcomes with a scenario matrix incorporating FAA STOL and eVTOL regulations, ICAO airport and vertiport rules, noise perception, US Scope Clauses, India's UDAN-RCS, and route economics.",
+        "Facilitated partner agreements with Mott MacDonald and Cranfield University by providing management with technical inputs and daily coordination, and contributed to drafting statements of work."
+      ]
+    },
+    { 
+      "id": "exp-6",
+      "title": "Founder and Project Manager",
+      "company": "Project Phoenix at the University of Sheffield",
+      "location": "Sheffield, United Kingdom",
+      "start": "2016-02",
+      "end": "2016-12",
+      "current": false,
+      "intro": null,
+      "bullets": [
+        "Led a 50-student team building a full-scale aircraft, raising GBP 25k from three sponsors, managing planning, procurement, contracts, logistics, and stakeholder engagements to deliver on milestones."
+      ]
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "degree": "Doctor of Philosophy (D.Phil.)",
+      "field": "Applied Multimodal AI and Data Science",
+      "institution": "University of Oxford",
+      "location": "Oxford, United Kingdom",
+      "start": "2019-10",
+      "end": "2024-12",
+      "bullets": [
+        "Thesis: Deep Learning Approaches to Multimodal MRI Brain Age Estimation (link)",
+        "Awards: Royal Commission for the Exhibition of 1851 Industrial Fellowship (2021) (link)."
+      ]
+    },
+    {
+      "degree": "Master of Engineering (M.Eng.)",
+      "field": "Aerospace Engineering (First-Class Honors, Valedictorian)",
+      "institution": "University of Sheffield",
+      "location": "Sheffield, United Kingdom",
+      "start": "2014-09",
+      "end": "2019-06",
+      "bullets": [
+        "Thesis: Design of Artificial Intelligence Agents for Games using Deep Reinforcement Learning (link).",
+        "Awards: Mappin Medal and Premium (Top Graduating Student, 2019), Sir Harold West Award (2014)."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Introduction to Corporate Finance",
+      "issuer": "The Wharton School",
+      "date": "2025-01",
+      "topics_raw": []
+    },
+    {
+      "name": "Managing Social and Human Capital",
+      "issuer": "The Wharton School",
+      "date": "2024-12",
+      "topics_raw": []
+    },
+    {
+      "name": "Introduction to Financial Accounting",
+      "issuer": "The Wharton School",
+      "date": "2024-12",
+      "topics_raw": []
+    },
+    {
+      "name": "Introduction to Project Management",
+      "issuer": "IBM",
+      "date": "2024-12",
+      "topics_raw": []
+    },
+    {
+      "name": "Introduction to Marketing",
+      "issuer": "The Wharton School",
+      "date": "2024-10",
+      "topics_raw": []
+    },
+    {
+      "name": "Essential Edge AI with Renesas RZ/V2L",
+      "issuer": "Doulos",
+      "date": "2023-01",
+      "topics_raw": []
+    },
+    {
+      "name": "Introduction to Health Economic Evaluation",
+      "issuer": "University of Oxford",
+      "date": "2022-05",
+      "topics_raw": []
+    },
+    {
+      "name": "AI for Medicine Specialization",
+      "issuer": "Coursera",
+      "date": "2020-11",
+      "topics_raw": []
+    },
+    {
+      "name": "Deep Learning Specialization",
+      "issuer": "Coursera",
+      "date": "2018-10",
+      "topics_raw": []
+    },
+    {
+      "name": "Certificate of English as a Foreign Language",
+      "issuer": "Educational Testing Service (ETS)",
+      "date": "2013-09"
+    },
+    {
+      "name": "Democratic Development",
+      "issuer": "Coursera",
+      "date": "2014-01"
+    },
+    {
+      "name": "Concurrent Engineering Workshop",
+      "issuer": "European Space Agency - ESA",
+      "date": "2018-02"
+    },
+    {
+      "name": "Machine Learning",
+      "issuer": "Coursera",
+      "date": "2018-03"
+    },
+    {
+      "name": "Neural Networks and Deep Learning",
+      "issuer": "Coursera",
+      "date": "2018-07"
+    },
+    {
+      "name": "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization",
+      "issuer": "Coursera",
+      "date": "2018-08"
+    },
+    {
+      "name": "Structuring Machine Learning Projects",
+      "issuer": "Coursera",
+      "date": "2018-09"
+    },
+    {
+      "name": "Convolutional Neural Networks",
+      "issuer": "Coursera",
+      "date": "2018-09"
+    },
+    {
+      "name": "Sequence Models",
+      "issuer": "Coursera",
+      "date": "2018-10"
+    },
+    {
+      "name": "Artificial Intelligence: Reinforcement Learning in Python",
+      "issuer": "Udemy",
+      "date": "2018-10"
+    },
+    {
+      "name": "Deep Learning Prerequisites: The Numpy Stack in Python",
+      "issuer": "Udemy",
+      "date": "2019-12"
+    },
+    {
+      "name": "Deep Learning: GANs and Variational Autoencoders",
+      "issuer": "Udemy",
+      "date": "2020-02"
+    },
+    {
+      "name": "AI for Medical Prognosis",
+      "issuer": "Coursera",
+      "date": "2020-07"
+    },
+    {
+      "name": "AI for Medical Diagnosis",
+      "issuer": "Coursera",
+      "date": "2020-07"
+    },
+    {
+      "name": "AI For Medical Treatment",
+      "issuer": "Coursera",
+      "date": "2020-11"
+    },
+    {
+      "name": "Deep Learning Prerequisites: Linear Regression in Python",
+      "issuer": "Udemy",
+      "date": "2021-04"
+    },
+    {
+      "name": "Deep Learning Prerequisites: Logistic Regression in Python",
+      "issuer": "Udemy",
+      "date": "2021-05"
+    },
+    {
+      "name": "Data Science: Supervised Machine Learning in Python",
+      "issuer": "Udemy",
+      "date": "2021-05"
+    },
+    {
+      "name": "Bayesian Machine Learning in Python: A/B Testing",
+      "issuer": "Udemy",
+      "date": "2021-05"
+    },
+    {
+      "name": "Data Science: Deep Learning and Neural Networks in Python",
+      "issuer": "Udemy",
+      "date": "2022-02"
+    },
+    {
+      "name": "Azure AI & Machine Learning",
+      "issuer": "Microsoft Learn",
+      "date": "2023",
+      "topics_raw": [
+        "MLOps with Azure ML: build, train, deploy, and monitor batch and real-time inference pipelines",
+        "Azure Cognitive Search: indexing, query-scoring, semantic / vector retrieval, custom skills",
+        "Conversational AI & Language Understanding: intent recognition, entity extraction",
+        "Data Engineering & Containerize AI: Apache Spark, Databricks, Docker & Kubernetes"
+      ]
+    },
+    {
+      "name": "Digital Product Management: Modern Fundamentals",
+      "issuer": "University of Virginia Darden School of Business",
+      "date": "2025-09"
+    }
+  ],
+  "skills": {
+    "languages": [
+      "Romanian (Native)",
+      "English (C2)",
+      "French (B1)",
+      "German (current: A1, target: B1 by 2027)"
+    ],
+    "programming_languages": [
+      "Python (4/5)",
+      "C/C++ (2/5)",
+      "Matlab (2/5)",
+      "SQL (1/5)"
+    ],
+    "frameworkds": [
+      "PyTorch",
+      "TensorFlow",
+      "TFLite",
+      "MongoDB",
+      "Git",
+      "Azure",
+      "Docker",
+      "Apache Spark"
+    ]
+  },
+  "interests": [
+    "Reading (business, project management, EQ), STEM outreach, Sports (trekking, jogging, cycling, kayaking)"
+  ],
+  "references_note": "Available upon request"
+}
