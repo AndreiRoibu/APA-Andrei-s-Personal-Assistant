@@ -10,7 +10,7 @@ Context
 - Files: cv.json is ground truth. No fabrication.
 
 Tasks (global)
-- Always align to the JD, be concise, metric-first, factual and defensive.
+- Always align with the JD, and be concise, metric-first, factual, and defensive.
 - If a critical fact is missing, ask ONE focused question per fact, then stop.
 - For final CV outputs: one column, no tables/icons/text boxes, plain text + light Markdown.
 Acknowledge readiness and list any blockers.
@@ -31,7 +31,7 @@ Inputs
 Task
 - Extract: (a) Must-haves, (b) Nice-to-haves, (c) 10–15 exact keywords from the JD.
 - Map each must-have to evidence from my JSONs (role, timeframe, metric). Mark status = Met / Partial / Gap.
-- Identify any knowledge gaps about my profile; ask ONE crisp question if needed per gap.
+- Identify any knowledge gaps; ask ONE crisp question if needed per gap.
 
 Rules
 - Use only facts in linkedin.json, technical_cv.json, nontechnical_cv.json, pm_cv.json or in this chat. Do NOT invent.
@@ -40,8 +40,8 @@ Rules
 Deliverables
 1. Must-haves mapping (Status | JD phrase | My evidence | Follow-up needed?).
 2. Nice-to-haves mapping (same fields, shorter).
-3. Keyword list (10–15) to weave into Profile, Areas of Expertise, >=1 Experience bullet.
-4. One-sentence overall strength assessment (e.g., “Strong/Competitive/Stretch”) with top risks.
+3. Keyword list (10–15) to weave into Profile, Areas of Expertise, and >=1 Experience bullet.
+4. One-sentence overall strength assessment (e.g., "Strong/Competitive/Stretch") with top risks.
 
 --------------------------------------------------------------------------------
 2. Gap Closure with my Additions
@@ -52,23 +52,23 @@ Here is how I address the gaps:
 
 Task
 - Update the mapping with my answers.
-- Only change statuses affected by the new information; leave rest intact;
-- Reassess: Am I now a strong candidate? If not, what’s the THREE highest-impact additions or mitigations I should provide?
-- The THREE highest-impact additions or mitigations must be realistically achievable in < 2 hours, or should be market as "for interview or future"
+- Only change statuses affected by the new information; leave the rest intact.
+Reassess: Am I now a strong candidate? If not, what are the THREE highest-impact additions or mitigations I should provide?
+- The THREE highest-impact additions or mitigations must be realistically achievable in < 2 hours, or should be marked as "for interview or future"
 
 Deliverables
 - Updated statuses (Met/Partial/Gap) + revised overall assessment.
-- top proof points to emphasize later in Cover Letter.
+- The top proof points to emphasize later in the Cover Letter.
 
 --------------------------------------------------------------------------------
 3. Tailor "Profile" 
 --------------------------------------------------------------------------------
 
-Thank you! Let’s tailor just the “Profile”. Keep other sections for later.
+Thank you! Let's tailor just the "Profile". Keep other sections for later.
 
 Constraints
 - Start from "profile" in cv.json.
-- Stay specific, concrete, and state USP: relevant competencies, interests and values
+- Stay specific, concrete, and state USP: relevant competencies, interests, and values
 - Propose minimal high-impact edits (<=15 words total change);
 - Human-first and ATS-friendly.
 
@@ -77,12 +77,12 @@ Inputs
 
 Deliverables
 - Profile (final draft).
-- 1–2 optional alternates for the Profile with different JD relevant emphases.
+- 1–2 optional alternates for the Profile with different emphases relevant to JD.
 
 Quality Checks:
 - Avoid generalisations and/or simple listing of adjectives with no explanation or evidence.
 - Reserve detailed counts/impact for Experience.
-- Reserve simple listing of keywords, must-haves and nice-to-haves for Areas Of Expertise.
+- Reserve the verbatim listing of keywords, must-haves, and nice-to-haves for Areas of Expertise.
 - No new facts; ask ONE question if evidence is missing or weak for a claimed skill;
 
 --------------------------------------------------------------------------------
@@ -102,22 +102,22 @@ Inputs
 - JD, JSONs, and my additions above.
 
 Deliverables
-- Areas Of Expertise (final draft).
+- Areas of Expertise (final draft).
 
 Quality Checks:
-- All bullets backed by evidence and defensible.
+- All bullets are backed by evidence and are defensible.
 - No new facts; ask ONE question if evidence is missing or weak for a claimed skill;
 
 --------------------------------------------------------------------------------
 5. Micro-Review of Profile + Skills
 --------------------------------------------------------------------------------
 
-Thanks! Do the Profile and Areas Of Expertise fully cover the JD must-haves, nice-to-haves and keywords without bloat?
+Thanks! Do the Profile and Areas of Expertise fully cover the JD must-haves, nice-to-haves, and keywords without bloat?
 
 Task
 - If coverage is incomplete, propose the smallest possible edits (<=15 words total change).
-- If length exceeds my style, trim while preserving JD coverage.
-- Return a “before - after” diff for any changed lines.
+- If the length exceeds my style, trim it while preserving JD coverage.
+- Return a "before - after" diff for any changed lines.
 
 --------------------------------------------------------------------------------
 6. Tailor "Experience"
@@ -127,30 +127,30 @@ Thank you! Now tailor the Experience section.
 
 Constraints
 - Start from "experience" in cv.json.
-- Weave JD keywords, must-haves and nice-to-haves naturally by proposing propose the smallest possible edits to relevant bullets (<=10 words total change).
-- At least one keyword appears per relevant role. Highlight in bold.
+- Weave JD keywords, must-haves, and nice-to-haves naturally by proposing the smallest possible edits to relevant bullets (<=10 words total change per bullet).
+- At least one keyword appears in each relevant role. Highlight in bold.
 
 Inputs
 - JD + JSONs + my gap-closures.
 
 Deliverables
 - Rewritten bullets per role (only roles/bullets relevant to the JD).
-- For any role where evidence is thin, ask ONE targeted question or suggest a truthful adjacent proof (domain/scale/tool).
+- Ask ONE targeted question or suggest a truthful adjacent proof (domain/scale/tool) for any role where evidence is thin.
 
 Quality Checks:
 - All keywords present in experience bullets.
-- All must-haves and nice-to-haves are showcased, except ackowledged gaps.
+- All must-haves and nice-to-haves are showcased, except acknowledged gaps.
 
 --------------------------------------------------------------------------------
 7. Education, Certifications & Projects, Languages, Interests
 --------------------------------------------------------------------------------
 
-Excellent. Let’s finalize the remaining sections.
+Excellent. Let's finalize the remaining sections.
 
 Scope
-- Start from "projects", "education", "certifications" and "skills" in cv.json.
-- Review Projects, Education and Skills, and propose changes, if any are needed, to align to JD.
-- List the top 4-6 Certifications which must be included to align to JD.
+- Start from "projects", "education", "certifications", and "skills" in cv.json.
+- Review Projects, Education and Skills, and propose changes, if any are needed, to align with the JD.
+- List the top 4-6 Certifications that must be included to align with the JD.
 
 Rules
 - No fabrication. If a project or certificate is borderline, justify inclusion in one line or omit.
@@ -181,7 +181,7 @@ Deliverables
 - EN-US corthography;
 
 Quality Checks:
-- Check context for full JD, must-haves and nice-to-haves 
+- Check context for full JD, must-haves, and nice-to-haves 
 
 --------------------------------------------------------------------------------
 9. Write the Cover Letter (<=250 words)
@@ -191,13 +191,13 @@ Write a Swiss-appropriate cover letter for this JD.
 
 Constraints
 - <=250 words; formal;
-- Focus on most important must-haves;
-- Use Dale Carnegie principles: talk in terms of their interests, needs and wants.
+- Focus on the most important must-haves;
+- Use Dale Carnegie principles: focus on their interests, needs, and wants, and how I address them.
 
 Structure:
 - Paragraph 1 - You (the company): Hook; What fascinates and interests me about the company; Personal touch making message authentic.
-- Paragraph 2 - Me (my qualifications): 2–3 proofs tied to JD must-haves with outcomes showing I meet criteria described, required and desired by JD, making me a strong candidate; link experience and qualifications to JD, stating how skills are acquired/proven; 
-- Paragraph 3 - We (closing): thank you; show interest in meeting to learn more about company and role;
+- Paragraph 2 - Me (my qualifications): 2–3 proofs tied to JD must-haves with outcomes showing I meet criteria described, required, and desired by JD, making me a strong candidate; link experience and qualifications to JD, stating how skills are acquired/proven; 
+- Paragraph 3 - We (closing): thank you; show interest in meeting to learn more about the company and the role;
 
 Quality Checks:
 - Nu superficial opening.
@@ -219,4 +219,4 @@ Here is the CL raw text:
 Task
 - Does the letter make me a strong candidate for the JD?
 - If coverage is incomplete, propose minimal edits (<=30 words total).
-- Keep tone and length; return a “before - after” diff for changed lines.
+- Keep tone and length; return a "before - after" diff for changed lines.
