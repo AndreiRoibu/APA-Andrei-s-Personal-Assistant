@@ -7,11 +7,10 @@ JD = job description.
 
 Context
 - Language: EN-US
-- Work authorization: B EU-EFTA; Nationality: EU; Availability: 3 months
-- Files: linkedin.json, technical_cv.json, nontechnical_cv.json, pm_cv.json are ground truth. No fabrication.
+- Files: cv.json is ground truth. No fabrication.
 
 Tasks (global)
-- Always align to the JD, be concise, metric-first, and factual.
+- Always align to the JD, be concise, metric-first, factual and defensive.
 - If a critical fact is missing, ask ONE focused question per fact, then stop.
 - For final CV outputs: one column, no tables/icons/text boxes, plain text + light Markdown.
 Acknowledge readiness and list any blockers.
@@ -41,8 +40,8 @@ Rules
 Deliverables
 1. Must-haves mapping (Status | JD phrase | My evidence | Follow-up needed?).
 2. Nice-to-haves mapping (same fields, shorter).
-3. Keyword list (10–15) to weave into Summary, Skills, >=1 Experience bullet.
-4. One-sentence overall strength assessment (e.g., “Strong/Competitive/Stretch”) with top 2 risks.
+3. Keyword list (10–15) to weave into Profile, Areas of Expertise, >=1 Experience bullet.
+4. One-sentence overall strength assessment (e.g., “Strong/Competitive/Stretch”) with top risks.
 
 --------------------------------------------------------------------------------
 2. Gap Closure with my Additions
@@ -55,41 +54,65 @@ Task
 - Update the mapping with my answers.
 - Only change statuses affected by the new information; leave rest intact;
 - Reassess: Am I now a strong candidate? If not, what’s the THREE highest-impact additions or mitigations I should provide?
-- The THREE highest-impact additions or mitigations must be achievable in < 0.5 day, or should be market as "for interview or future"
+- The THREE highest-impact additions or mitigations must be realistically achievable in < 2 hours, or should be market as "for interview or future"
 
 Deliverables
 - Updated statuses (Met/Partial/Gap) + revised overall assessment.
-- 3 proof points to emphasize later in Summary/Experience.
+- top proof points to emphasize later in Cover Letter.
 
 --------------------------------------------------------------------------------
-3. Draft “Professional Summary” + “Key Skills”
+3. Tailor "Profile" 
 --------------------------------------------------------------------------------
 
-Thank you! Let’s tailor just the “Professional Summary” and “Key Skills”. Keep other sections for later.
+Thank you! Let’s tailor just the “Profile”. Keep other sections for later.
 
 Constraints
-- Keep technical_cv.json, nontechnical_cv.json, pm_cv.json narrative style.
-- Summary: <=50 words, include most important JD keywords, metric-first, no fluff, narrative flow;
+- Start from "profile" in cv.json.
+- Stay specific, concrete, and state USP: relevant competencies, interests and values
+- Propose minimal high-impact edits (<=15 words total change);
 - Human-first and ATS-friendly.
-- Key Skills: 7 bullets maximum; Pillar+Proof format: Pillars = 1-3 word must-haves first then nice-to-haves if space allows + Proofs = 5-10 words, factual, containing 0-1 metrics and 2-4 keywords reinforcing the Pillar; Keep it tight; Do not duplicate keywords, proofs or ideas across bullets;
 
 Inputs
 - JD, JSONs, and my additions above.
 
 Deliverables
-- Professional Summary (final draft).
-- Key Skills (final draft).
-- 1–2 optional alternates for the Summary with different JD relevant emphases.
+- Profile (final draft).
+- 1–2 optional alternates for the Profile with different JD relevant emphases.
 
 Quality Checks:
-- Do not duplicate exact metrics between Summary and Skills; reserve detailed counts/impact for Experience.
+- Avoid generalisations and/or simple listing of adjectives with no explanation or evidence.
+- Reserve detailed counts/impact for Experience.
+- Reserve simple listing of keywords, must-haves and nice-to-haves for Areas Of Expertise.
 - No new facts; ask ONE question if evidence is missing or weak for a claimed skill;
 
 --------------------------------------------------------------------------------
-4. Micro-Review of Summary + Skills
+4. Tailor "Areas Of Expertise"
 --------------------------------------------------------------------------------
 
-Thanks! Do the Summary and Key Skills fully cover the JD must-haves without bloat?
+Okay. Moving on to "Areas Of Expertise".
+
+Constraints
+- Start from "areas_of_expertise" in cv.json.
+- 15 bullets in total; 
+- Add bullets to align with must-haves first, then nice-to-haves;
+- Remove less important bullets;
+- Do not duplicate keywords or ideas across bullets;
+
+Inputs
+- JD, JSONs, and my additions above.
+
+Deliverables
+- Areas Of Expertise (final draft).
+
+Quality Checks:
+- All bullets backed by evidence and defensible.
+- No new facts; ask ONE question if evidence is missing or weak for a claimed skill;
+
+--------------------------------------------------------------------------------
+5. Micro-Review of Profile + Skills
+--------------------------------------------------------------------------------
+
+Thanks! Do the Profile and Areas Of Expertise fully cover the JD must-haves, nice-to-haves and keywords without bloat?
 
 Task
 - If coverage is incomplete, propose the smallest possible edits (<=15 words total change).
@@ -97,48 +120,52 @@ Task
 - Return a “before - after” diff for any changed lines.
 
 --------------------------------------------------------------------------------
-5. Tailor "Experience"
+6. Tailor "Experience"
 --------------------------------------------------------------------------------
 
 Thank you! Now tailor the Experience section.
 
 Constraints
-- Keep technical_cv.json, nontechnical_cv.json, pm_cv.json style; 1–5 bullets per role.
-- Bullet formula: Action verb + metric + outcome + scope/timeframe.
-- Weave JD keywords naturally; at least one appears per relevant role. Highlight in bold.
+- Start from "experience" in cv.json.
+- Weave JD keywords, must-haves and nice-to-haves naturally by proposing propose the smallest possible edits to relevant bullets (<=10 words total change).
+- At least one keyword appears per relevant role. Highlight in bold.
 
 Inputs
 - JD + JSONs + my gap-closures.
 
 Deliverables
-- Rewritten bullets per role (only roles relevant to the JD).
+- Rewritten bullets per role (only roles/bullets relevant to the JD).
 - For any role where evidence is thin, ask ONE targeted question or suggest a truthful adjacent proof (domain/scale/tool).
 
+Quality Checks:
+- All keywords present in experience bullets.
+- All must-haves and nice-to-haves are showcased, except ackowledged gaps.
+
 --------------------------------------------------------------------------------
-6. Education, Certifications & Projects, Languages, Interests
+7. Education, Certifications & Projects, Languages, Interests
 --------------------------------------------------------------------------------
 
 Excellent. Let’s finalize the remaining sections.
 
 Scope
-- Education (relevant items only), Certifications, Languages (CEFR), Interests (lean, professional).
-- Projects (optional, only if they strengthen fit and not in Experience)
+- Start from "projects", "education", "certifications" and "skills" in cv.json.
+- Review Projects, Education and Skills, and propose changes, if any are needed, to align to JD.
+- List the top 4-6 Certifications which must be included to align to JD.
 
 Rules
 - No fabrication. If a project or certificate is borderline, justify inclusion in one line or omit.
-- Include Availability & Permit line.
 
 Deliverables
-- Draft text for each section in plain text + light Markdown headings.
-- Note any optional extras I could add without stretching the truth.
+- Only if a change is required, draft text for each section in plain text + light Markdown headings.
+- Note any optional extras I could add while staying truthful.
+- List of Certifications to include. 
 
 --------------------------------------------------------------------------------
-7. Whole‑CV Review vs. JD (PDF + raw)
+8. Whole‑CV Review vs. JD (PDF + raw)
 --------------------------------------------------------------------------------
 
-Here is the CV PDF and the raw text:
-- PDF attached
-- Raw text: 
+Here is the CV raw text:
+
 ```
 {{PASTE_RAW_TEXT}}
 ```
@@ -150,33 +177,41 @@ Task
 Deliverables
 - Verdict (Strong/Competitive/Stretch) + 3 reasons.
 - High-impact edits (max 5), each <=20 words, referencing exact sections.
-- ATS: style; consistent dates; normalized numerals/currency; JD keywords present in Summary, Skills, >=1 Experience bullet.
-- Swiss specifics: permit/nationality phrasing; CEFR; photo/PII per my consents; EN-US orthography;
+- ATS: style; consistent dates; normalized numerals/currency; JD keywords present in Profile, Skills, >=1 Experience bullet.
+- EN-US corthography;
 
-Guardrails: Check context for full JD, must-haves and nice-to-haves 
+Quality Checks:
+- Check context for full JD, must-haves and nice-to-haves 
 
 --------------------------------------------------------------------------------
-8. Write the Cover Letter (<=250 words)
+9. Write the Cover Letter (<=250 words)
 --------------------------------------------------------------------------------
 
 Write a Swiss-appropriate cover letter for this JD.
 
 Constraints
-- <=250 words; formal; match ad language.
-- Focus on most important must-haves.
-- Structure: Hook (mission/product) + 2–3 one-line proof bullets tied to JD must-haves with outcomes + Close (availability, permit, polite CTA).
-- Use Dale Carnegie principles of talking in terms of their interests, needs and wants.
+- <=250 words; formal;
+- Focus on most important must-haves;
+- Use Dale Carnegie principles: talk in terms of their interests, needs and wants.
+
+Structure:
+- Paragraph 1 - You (the company): Hook; What fascinates and interests me about the company; Personal touch making message authentic.
+- Paragraph 2 - Me (my qualifications): 2–3 proofs tied to JD must-haves with outcomes showing I meet criteria described, required and desired by JD, making me a strong candidate; link experience and qualifications to JD, stating how skills are acquired/proven; 
+- Paragraph 3 - We (closing): thank you; show interest in meeting to learn more about company and role;
+
+Quality Checks:
+- Nu superficial opening.
+- No lifting passages verbatim from JD or company website.
+- No listing of skills and requirements without specific, real, defensible examples.
 
 Deliverables
 - Full letter (<=250 words).
 
 --------------------------------------------------------------------------------
-9. Cover Letter Micro‑Review
+10. Cover Letter Micro‑Review
 --------------------------------------------------------------------------------
 
-Here is the CL PDF and the raw text:
-- PDF attached
-- Raw text: 
+Here is the CL raw text:
 ```
 {{PASTE_RAW_TEXT}}
 ```
@@ -185,53 +220,3 @@ Task
 - Does the letter make me a strong candidate for the JD?
 - If coverage is incomplete, propose minimal edits (<=30 words total).
 - Keep tone and length; return a “before - after” diff for changed lines.
-- Confirm salutation/closing correctness for the language; fix if needed.
-
---------------------------------------------------------------------------------
-10. Profile Enrichment & JSON Augmentation
---------------------------------------------------------------------------------
-
-Great! The application has been sent. Now, review my documents and propose additions.
-
-Goal
-- Suggest concise, verifiable additions or changes that would strengthen JD fit. No fabrication.
-
-Inputs
-- JD, my answers, latest drafts, techical_cv.json, nontechnical_cv.json, pm_cv.json, linkedin.json
-- Optional: enrichments.json (suggestions only).
-
-Tasks
-- Propose high-impact additions or changes.
-- For each item provide: target file+path, action (add|update|remove), proposed value, motivation for modification, evidence (file+snippet), confidence (0.0–1.0), needs_confirmation (true|false).
-- needs_confirmation is false is confidence is >=0.8, and true otherwise.
-
-Deliverables
-- `enrichments.json` content.
-
-Rules
-- Do not modify the source JSONs. These are proposals only.
-- Do not use proposals in CV/letter content unless I confirm.
-- ASCII symbols; normalized numerals (100x, 12%, £120k).
-
-JSON format:
-```
-{
-  "applications": [
-    {
-      "app_id": "{{APP_ID}}",
-      "suggestions": [
-        {
-          "id": "S-001",
-          "target": ""techical_cv.json:/experience/3/bullets_raw/0"",
-          "action": "add",
-          "value": "Reduced inference latency 38% (A/B, N=120k, Q2 2024).",
-          "why": "JD requires measurable latency reduction.",
-          "evidence": "technical_cv.json bullet mentions A/B; missing exact %.",
-          "confidence": 0.9,
-          "needs_confirmation": true
-        }
-      ]
-    }
-  ]
-}
-```

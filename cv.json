@@ -42,8 +42,7 @@
   },
   "availability": { "type": "notice", "date": null, "notice_days": 90 },
   "profile": "Applied AI specialist (Oxford PhD) and data-driven project lead with a record of delivering 35+ projects under ambiguity, translating research into scalable solutions. I combine deep technical knowledge, mixed-methods research, and leadership of multidisciplinary projects with C-level and domain expert stakeholders across aerospace, semiconductors, and pharma. Passionate about using psychology and strategic thinking to drive growth, such as sourcing 60+ sales leads at Synthara and enabling new business lines at Rolls-Royce.",
-  "areas_of_expertise": {
-    "keywords": [
+  "areas_of_expertise": [
       "Deep Learning and Edge-AI",
       "Reinforcement Learning",
       "Model Optimization",
@@ -58,8 +57,7 @@
       "Market Research",
       "Stakeholder Communication",
       "Project Management"
-    ]
-  },
+  ],
   "experience": [
     {
       "id": "exp-1",
