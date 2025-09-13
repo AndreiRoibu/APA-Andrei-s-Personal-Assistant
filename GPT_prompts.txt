@@ -40,7 +40,7 @@ Rules
 Deliverables
 1. Must-haves mapping (Status | JD phrase | My evidence | Follow-up needed?).
 2. Nice-to-haves mapping (same fields, shorter).
-3. Keyword list (10–15) to weave into Profile, Areas of Expertise, and >=1 Experience bullet.
+3. Keyword list (10–15) to weave into Profile, Skills, and >=1 Experience bullet.
 4. One-sentence overall strength assessment (e.g., "Strong/Competitive/Stretch") with top risks.
 
 --------------------------------------------------------------------------------
@@ -82,27 +82,28 @@ Deliverables
 Quality Checks:
 - Avoid generalisations and/or simple listing of adjectives with no explanation or evidence.
 - Reserve detailed counts/impact for Experience.
-- Reserve the verbatim listing of keywords, must-haves, and nice-to-haves for Areas of Expertise.
+- Reserve the verbatim listing of keywords, must-haves, and nice-to-haves for Skills.
 - No new facts; ask ONE question if evidence is missing or weak for a claimed skill;
 
 --------------------------------------------------------------------------------
-4. Tailor "Areas Of Expertise"
+4. Tailor "Skills"
 --------------------------------------------------------------------------------
 
-Okay. Moving on to "Areas Of Expertise".
+Okay. Moving on to "Skills".
 
 Constraints
-- Start from "areas_of_expertise" in cv.json.
-- 15 bullets in total; 
-- Add bullets to align with must-haves first, then nice-to-haves;
-- Remove less important bullets;
+- Start from "skills" in cv.json.
+- 7-8 bullets in total;
+- Format: "theme : technologies/techniques".
+- Propose smallest possible edigs to align with must-haves first, then nice-to-haves (<=10 words total change);
+- Propose less important information removal;
 - Do not duplicate keywords or ideas across bullets;
 
 Inputs
 - JD, JSONs, and my additions above.
 
 Deliverables
-- Areas of Expertise (final draft).
+- Skills (final draft).
 
 Quality Checks:
 - All bullets are backed by evidence and are defensible.
@@ -112,7 +113,7 @@ Quality Checks:
 5. Micro-Review of Profile + Skills
 --------------------------------------------------------------------------------
 
-Thanks! Do the Profile and Areas of Expertise fully cover the JD must-haves, nice-to-haves, and keywords without bloat?
+Thanks! Do the Profile and Skills fully cover the JD must-haves, nice-to-haves, and keywords without bloat?
 
 Task
 - If coverage is incomplete, propose the smallest possible edits (<=15 words total change).

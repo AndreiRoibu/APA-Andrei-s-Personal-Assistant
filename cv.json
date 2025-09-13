@@ -41,39 +41,85 @@
     "photo_ref": null
   },
   "availability": { "type": "notice", "date": null, "notice_days": 90 },
-  "profile": "Applied AI specialist (Oxford PhD) and data-driven project lead with a record of delivering 35+ projects under ambiguity, translating research into scalable solutions. I combine deep technical knowledge, mixed-methods research, and leadership of multidisciplinary projects with C-level and domain expert stakeholders across aerospace, semiconductors, and pharma. Passionate about using psychology and strategic thinking to drive growth, such as sourcing 60+ sales leads at Synthara and enabling new business lines at Rolls-Royce.",
-  "areas_of_expertise": [
-      "Deep Learning and Edge-AI",
-      "Reinforcement Learning",
-      "Model Optimization",
-      "Multimodal Data Science",
+  "profile": "Field applications software engineer with Oxford PhD, building high-performance deep learning and data science pipelines on embedded and HPC platforms. Driven, customer-centric project lead, I partnered with C-level executives and domain experts to deliver 35+ projects across aerospace, semiconductors, and pharma, sourced 60+ sales leads at Synthara, and sized new USD 840M/year opportunities at Rolls-Royce.",
+  "skills": {
+    "Programming": [
+      "Python (8 years)",
+      "C/C++ (2 years)",
+      "Bash (6 years)",
+      "Matlab (5 years)",
+      "SQL",
+      "LaTeX"
+    ],
+    "Deep Learning": [
+      "PyTorch",
+      "TensorFlow",
+      "TFLite",
+      "Keras",
+      "ONNX",
+      "Scikit-Learn",
+      "Statsmodels",
+      "OpenAI Gym"
+    ],
+    "Data Science": [
+      "NumPy",
+      "SciPy",
+      "Pandas",
+      "Matplotlib",
+      "Seaborn",
+      "PyMongo (MongoDB)",
+      "h5py (HDF5)",
+      "Apache Spark"
+    ],
+    "Embedded": [
+      "TinyML",
       "Digital Signal Processing",
-      "Embedded Systems",
-      "Slurm-HPC and Azure",
+      "Optimization",
+      "Quantization",
+      "Emulation"
+    ],
+    "Infrastructure": [
+      "Microsoft Azure",
+      "Google Cloud",
+      "Docker",
+      "Kubernetes",
+      "Slurm/HPC",
+      "Git CI/CD",
+      "Nuitka",
+      "pytest"
+    ],
+    "Product Management": [
+      "Agile/Scrum",
+      "Lean",
+      "Cross-Functional Communication",
+      "Product Roadmaps",
+      "Design Thinking"
+    ],
+    "Business Development": [
+      "Technical Marketing",
+      "Horizon Scanning",
       "Research Translation",
-      "Product Management",
-      "Technical Marketing and Sales",
-      "Cross-Functional Leadership",
-      "Market Research",
-      "Stakeholder Communication",
-      "Project Management"
-  ],
+      "Workshops",
+      "Pitching"
+    ]
+  },
   "experience": [
     {
       "id": "exp-1",
-      "title": "Field Applications Engineer and Scrum Master",
+      "title": "Field Applications Engineer, Scrum Master",
       "company": "Synthara AG",
       "location": "Zürich, Switzerland",
       "start": "2023-09",
       "end": null,
       "current": true,
-      "intro": "Synthara designs high-performance, energy-efficient in-memory computing chips for embedded devices.",
+      "intro": "Synthara designs high-performance, energy-efficient in-memory computing (IMC) chips for embedded devices.",
       "bullets": [
-        "Designed in-memory computing algorithms delivering up to 100x faster and lower-energy inferences vs. INT8 baselines on representative LLM, TinyML, and DSP tasks, validated via Cortex-M device emulation.",
-        "Co-developed an embedded emulation pipeline, reducing benchmarking time by up to 90% vs. prior tools, analyzing bottlenecks, and adding Git CI, MongoDB, and Google Drive logging for reproducibility (link).",
-        "Owned the multi-quarter applications roadmap and led 25+ end-to-end cross-functional PoCs for prospective customers with Scrum, tracking latency, throughput, and energy consumption metrics.",
-        "Supported international sales, organizing conference presence, delivering workshops and pitches (link) across the EU/USA/China, sourcing 60+ sales leads, and leading market research for new opportunities.",
-        "Mentored engineers and authored customer-centric value propositions, technical annexes, and blogs, ran gate reviews, and aligned engineering, sales, and marketing teams."
+        "Owned the multi-quarter applications roadmap and led 25+ end-to-end customer PoCs with Scrum.",
+        "Optimized LLM, TinyML, DSP workloads for IMC, delivering up to 100x faster, lower-energy runs vs. INT8 baseline.",
+        "Co-developed an embedded emulation pipeline, accelerating Cortex-M benchmarking up to 90% vs. prior tools.",
+        "Automated reproducible latency, throughput, and energy usage logging with Git CI, MongoDB, and Google Cloud.",
+        "Ran conferences, delivered pitches (link) and workshops across EU/USA/China, and sourced 60+ B2B sales leads.",
+        "Mentored engineers, authored customer-centric proposals and annexes, and ran cross-functional gate reviews."
       ]
     },
     {
@@ -86,14 +132,18 @@
       "current": false,
       "intro": "Current models of brain ageing, a complex process tied to neurodegenerative diseases, are single-modality, missing important signals that limit their utility for drug discovery and environmental factor identification.",
       "bullets": [
-        "Built multimodal 3D MRI and biomedical data fusion HPC pipelines, finding 191 factors with CNNs and Vision Transformers trained on 30k UK Biobank subjects with variance, bias, and confound controls.",
-        "Created generative models (AE, VAE, GAN) for mapping structural brain MRIs to functional connectivity maps using 22k subjects, evaluating with MAE and Pearson Correlation vs. PCA and PLS baselines.",
-        "Secured GBP 120k funding, translated findings with Roche Pharma pRED and Biomarkers teams into three prototype models for early drug discovery, presented at IEEE SDS 2023, and open-sourced findings (link)."
+        "Built a deep learning HPC pipeline, using multimodal 3D MRIs from 30k UK Biobank subjects to predict brain age.",
+        "Introduced 3D SWIN Vision Transformers matching CNN accuracy while adding robustness and interpretability.",
+        "Corrected for variance, bias, and confounds, finding 191 significant factors associated with ageing deviations.",
+        "Showed ElasticNet ensembling surpasses deep fusion for multimodal age predictions, highlighting trade-offs.",
+        "Created AE, VAE, and GAN structure-function mappers, assessing them vs. PCA and PLS with MAE and Pearson R.",
+        "Used PCA-ICA on predictions to uncover independent modes of brain ageing within the population.",
+        "Secured GBP 120k, and translated findings with Roche pRED into prototype models for early drug discovery."
       ]
     },
     {
       "id": "exp-3",
-      "title": "Product Manager and Software Engineer (Part-Time)",
+      "title": "Product Manager, Software Engineer (Part-Time)",
       "company": "GE HealthCare UK Plc.",
       "location": "Oxford, United Kingdom",
       "start": "2019-10",
@@ -101,13 +151,13 @@
       "current": false,
       "intro": null,
       "bullets": [
-        "Lead the team shipping Paint4Brains with Scrum, applying Lean to translate clinical user requirements (simple UX, manual-edit tool, easy installers) into a prioritized backlog, accelerating early adoption.",
-        "Integrated QuickNat, an Alzheimer's segmentation CNN, improving Dice by ~11% and CPU-only inference speed by up to 100x vs. competing frameworks, supporting real-time use on business laptops (link)."
+        "Led the team shipping Paint4Brains with Scrum, using Lean to convert requirements into a prioritized backlog.",
+        "Integrated QuickNat, improving Dice by 11% and CPU-laptop inference speed by up to 100x vs. atlas methods."
       ]
     },
     {
       "id": "exp-4",
-      "title": "Master Student",
+      "title": "Master's Researchert",
       "company": "University of Sheffield",
       "location": "Sheffield, United Kingdom",
       "start": "2018-09",
@@ -115,7 +165,8 @@
       "current": false,
       "intro": null,
       "bullets": [
-        "Developed Q-learning and SARSA deep reinforcement learning agents in OpenAI Gym, showing that neuromorphic direct feedback alignment performs similarly to backpropagation on select tasks (link)."
+        "Developed Q-learning and SARSA classical and deep reinforcement learning agents in OpenAI Gym.",
+        "Demonstrated that neuromorphic direct feedback alignment training performs similarly to backpropagation."
       ]
     },
     {
@@ -128,14 +179,27 @@
       "current": false,
       "intro": null,
       "bullets": [
-        "Estimated a USD 840M/year revenue opportunity for hybrid-electrical aircraft via agent-based and TAM/SAM modelling with counterfactuals, informing CTO and shaping new business unit plans (link).",
-        "Stress-tested outcomes with a scenario matrix incorporating FAA STOL and eVTOL regulations, ICAO airport and vertiport rules, noise perception, US Scope Clauses, India's UDAN-RCS, and route economics.",
-        "Facilitated partner agreements with Mott MacDonald and Cranfield University by providing management with technical inputs and daily coordination, and contributed to drafting statements of work."
+        "Informed CTO of a USD 840M/year opportunity via agent-based and market modelling with counterfactuals.",
+        "Tested outcomes with a scenario matrix incorporating regulations, noise, legal, and route economics modelling.",
+        "Facilitated contracts with Mott MacDonald and Cranfield University by contributing to statement of work drafts."
       ]
     },
-    { 
+    {
       "id": "exp-6",
-      "title": "Founder and Project Manager",
+      "title": "Research Engineer (Full-Time Summer Internship)",
+      "company": "Rolls-Royce Holdings Plc.",
+      "location": "Derby, United Kingdom",
+      "start": "2016-06",
+      "end": "2016-09",
+      "current": false,
+      "intro": null,
+      "bullets": [
+        "Accelerated defect identification by up to 50% by fusing 3D point cloud and imaging data with Halcon HDevelop."
+      ]
+    },
+    {
+      "id": "exp-7",
+      "title": "Founder, Project Manager",
       "company": "Project Phoenix at the University of Sheffield",
       "location": "Sheffield, United Kingdom",
       "start": "2016-02",
@@ -143,33 +207,33 @@
       "current": false,
       "intro": null,
       "bullets": [
-        "Led a 50-student team building a full-scale aircraft, raising GBP 25k from three sponsors, managing planning, procurement, contracts, logistics, and stakeholder engagements to deliver on milestones."
+        "Led a 50-student team building an aircraft, raising GBP 25k, managing planning, procurement, and logistics."
       ]
     }
   ],
   "projects": [],
   "education": [
     {
-      "degree": "Doctor of Philosophy (D.Phil.)",
-      "field": "Applied Multimodal AI and Data Science",
-      "institution": "University of Oxford",
+      "id": "edu-1",
+      "title": "Ph.D. in Applied Multimodal AI and Data Science to Biomedical Data",
+      "university": "University of Oxford",
       "location": "Oxford, United Kingdom",
       "start": "2019-10",
       "end": "2024-12",
       "bullets": [
-        "Thesis: Deep Learning Approaches to Multimodal MRI Brain Age Estimation (link)",
+        "Thesis: Deep Learning Approaches to Multimodal MRI Brain Age Estimation (link).",
         "Awards: Royal Commission for the Exhibition of 1851 Industrial Fellowship (2021) (link)."
       ]
     },
     {
-      "degree": "Master of Engineering (M.Eng.)",
-      "field": "Aerospace Engineering (First-Class Honors, Valedictorian)",
-      "institution": "University of Sheffield",
+      "id": "edu-2",
+      "title": "M.Eng. in Aerospace Engineering (First-Class Honours, Valedictorian)",
+      "university": "University of Sheffield",
       "location": "Sheffield, United Kingdom",
       "start": "2014-09",
       "end": "2019-06",
       "bullets": [
-        "Thesis: Design of Artificial Intelligence Agents for Games using Deep Reinforcement Learning (link).",
+        "Thesis: Design of Artificial Intelligence Agents for Games using Deep Reinforcement Learning (link)",
         "Awards: Mappin Medal and Premium (Top Graduating Student, 2019), Sir Harold West Award (2014)."
       ]
     }
@@ -346,32 +410,16 @@
       "date": "2025-09"
     }
   ],
-  "skills": {
-    "languages": [
+  "additional_information": {
+    "Languages": [
       "Romanian (Native)",
       "English (C2)",
       "French (B1)",
       "German (current: A1, target: B1 by 2027)"
     ],
-    "programming_languages": [
-      "Python (4/5)",
-      "C/C++ (2/5)",
-      "Matlab (2/5)",
-      "SQL (1/5)"
-    ],
-    "frameworks": [
-      "PyTorch",
-      "TensorFlow",
-      "TFLite",
-      "MongoDB",
-      "Git",
-      "Azure",
-      "Docker",
-      "Apache Spark"
+    "interests": [
+      "Reading (business, management, EQ), STEM outreach, Sports (trekking, jogging, kayaking, cycling)"
     ]
   },
-  "interests": [
-    "Reading (business, project management, EQ), STEM outreach, Sports (trekking, jogging, cycling, kayaking)"
-  ],
   "references_note": "Available upon request"
 }
