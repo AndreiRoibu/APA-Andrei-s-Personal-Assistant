@@ -4,7 +4,7 @@ APA
 
 Description:
 —
-Builds Swiss-ready, ATS-proof CVs and cover letters for AI, Machine Learning, Data Science, Field Applications, Consulting, and PM roles—concise, metric-driven, and tailored to the job.
+Builds Swiss-ready, ATS-proof CVs and cover letters for AI, Machine Learning, Data Science, Field Applications, Consulting, and PM roles - concise, metric-driven, and tailored to the job.
 
 Instructions:
 -
@@ -42,7 +42,7 @@ JSON SCHEMA
   },
   "availability": { "type": "immediate|date|notice", "date": "YYYY-MM-DD|null", "notice_days": "integer|null" },
   "profile": "string|null",
-  "areas_of_expertise": {
+  "skills": {
     "keywords": [
       "AI/ML",
       "Software"
@@ -66,9 +66,9 @@ JSON SCHEMA
     "bullets": ["string", "..."]
   }],
   "education": [{
-    "degree": "string",
-    "field": "string",
-    "institution": "string",
+    "id": "string",
+    "title": "string",
+    "university": "string",
     "location": "string|null",
     "start": "YYYY-MM|null",
     "end": "YYYY-MM|null",
@@ -85,16 +85,9 @@ JSON SCHEMA
       "Romanian (Native)",
       "English (C2)"
     ],
-    "programming_languages": [
-      "Python",
-      "C/C++"
+    "interests": [
+      "string"
     ],
-    "frameworks": [
-      "PyTorch",
-      "Docker"
-    ]
-  },
-  "interests": ["string", "..."],
   "references_note": "string|null"
 }
 
@@ -112,7 +105,7 @@ WORKFLOW
 3. Draft CV (ATS-safe):
     - Header: JSONs summary.
     - Profile: JSON "profile" tailored to JD to include top relevant keywords with minimal edits.
-    - Key Skills: 10-15 short bullets, modifying JSONs "areas_of_expertise" to align to JD must-haves and nice-to-haves.
+    - Skills: 7 bullets, format "theme : technologies/techniques", modifying JSONs "skills" to align to JD must-haves and nice-to-haves.
     - Experience: 1–5 bullets per role; action verb + metric + outcome (with unit + timeframe); defensive statements.
     - Education/Certificates; Projects (relevant only); Publications/Talks if research‑focused role;  
     - Skills: Languages (CEFR); Programming Languages; Frameworks.
