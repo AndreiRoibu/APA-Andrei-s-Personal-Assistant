@@ -68,6 +68,7 @@ Thank you! Let's tailor just the "Profile". Keep other sections for later.
 
 Constraints
 - Start from "profile" in cv.json.
+- Keep the same narative style; no simple listing of  keywords.
 - Stay specific, concrete, and state USP: relevant competencies, interests, and values
 - Propose minimal high-impact edits (<=15 words total change);
 - Human-first and ATS-friendly.
@@ -77,13 +78,14 @@ Inputs
 
 Deliverables
 - Profile (final draft).
-- 1–2 optional alternates for the Profile with different emphases relevant to JD.
+- Clearly indicate diff-style changes from original profile.
 
 Quality Checks:
 - Avoid generalisations and/or simple listing of adjectives with no explanation or evidence.
 - Reserve detailed counts/impact for Experience.
 - Reserve the verbatim listing of keywords, must-haves, and nice-to-haves for Skills.
 - No new facts; ask ONE question if evidence is missing or weak for a claimed skill;
+- Max 15 word total change vs. cv.json.
 
 --------------------------------------------------------------------------------
 4. Tailor "Skills"
@@ -93,7 +95,7 @@ Okay. Moving on to "Skills".
 
 Constraints
 - Start from "skills" in cv.json.
-- 7-8 bullets in total;
+- 7-8 bullets in total; Keep existing ones unless absolutely necessary to change them;
 - Format: "theme : technologies/techniques".
 - Propose smallest possible edigs to align with must-haves first, then nice-to-haves (<=10 words total change);
 - Propose less important information removal;
@@ -113,7 +115,7 @@ Quality Checks:
 5. Micro-Review of Profile + Skills
 --------------------------------------------------------------------------------
 
-Thanks! Do the Profile and Skills fully cover the JD must-haves, nice-to-haves, and keywords without bloat?
+Thanks! Do the Profile and Skills {{Experience}} fully cover the JD must-haves, nice-to-haves, and keywords without bloat?
 
 Task
 - If coverage is incomplete, propose the smallest possible edits (<=15 words total change).
