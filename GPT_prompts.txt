@@ -143,6 +143,7 @@ Deliverables
 Quality Checks:
 - All keywords present in experience bullets.
 - All must-haves and nice-to-haves are showcased, except acknowledged gaps.
+- Clearly indicate diff-style changes from the original experience.
 
 --------------------------------------------------------------------------------
 7. Education, Certifications & Projects, Languages, Interests
